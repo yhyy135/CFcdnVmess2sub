@@ -5,18 +5,21 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
+	'shopify.com#优选官方线路',
+	'digitalocean.com#优选官方线路',
+	'www.visa.com.hk#优选官方线路',
 	'time.is#优选官方线路',
 	'ip.sb#优选官方线路',
-	'ping.pe#优选官方线路',
-	'digitalocean.com#优选官方线路'
+	'ping.pe#优选官方线路'
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	// 'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 	'https://addressesapi.090227.xyz/ip.164746.xyz',
-	'https://ipdb.api.030101.xyz/?type=bestproxy&country=true'
+	'https://ipdb.api.030101.xyz/?type=bestcf&country=true',
+	// 'https://ipdb.api.030101.xyz/?type=bestproxy&country=true'
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成

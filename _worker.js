@@ -5,12 +5,15 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'shopify.com#优选官方线路',
-	'digitalocean.com#优选官方线路',
-	'www.visa.com.hk#优选官方线路',
-	'time.is#优选官方线路',
-	'ip.sb#优选官方线路',
-	'ping.pe#优选官方线路'
+	// 'shopify.com#优选官方线路',
+	// 'digitalocean.com#优选官方线路',
+	// 'www.visa.com.hk#优选官方线路',
+	// 'time.is#优选官方线路',
+	// 'ip.sb#优选官方线路',
+	// 'ping.pe#优选官方线路',
+	'cf.877774.xyz#优选官方线路',
+	'saas.sin.fan#优选官方线路',
+	'cf.cloudflare.182682.xyz#优选官方线路',
 ];
 
 // 设置优选地址api接口
